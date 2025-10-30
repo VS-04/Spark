@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARK - Smart Farming Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="min-h-screen bg-background">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <div class="logo-icon">🌱</div>
+                        <h1>SPARK</h1>
+                    </div>
+                    <div class="header-info">
+                        <span class="location" id="location">Loading location...</span>
+                        <span class="time" id="time"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="container">
+                <div class="nav-items">
+                    <button class="nav-item active" data-section="Home">Home</button>
+                    <button class="nav-item" data-section="Soil Analysis">Soil Analysis</button>
+                    <button class="nav-item" data-section="Plant Diagnosis">Plant Diagnosis</button>
+                    <button class="nav-item" data-section="Irrigation Control">Irrigation Control</button>
+                    <button class="nav-item" data-section="Reports">Reports</button>
+                    <button class="nav-item" data-section="Settings">Settings</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <div id="content-area"></div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 SPARK Smart Farming Dashboard. All rights reserved.</p>
+                <p>Powered by AI & IoT Technology</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
